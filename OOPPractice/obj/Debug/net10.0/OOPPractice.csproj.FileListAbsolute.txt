@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/OOPPractice/bin/Debug/net10.0/OOPPractice
+/Users/nrs/Dot Net Dev/OOPPractice/bin/Debug/net10.0/OOPPractice.deps.json
+/Users/nrs/Dot Net Dev/OOPPractice/bin/Debug/net10.0/OOPPractice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/OOPPractice/bin/Debug/net10.0/OOPPractice.dll
+/Users/nrs/Dot Net Dev/OOPPractice/bin/Debug/net10.0/OOPPractice.pdb
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.sourcelink.json
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.dll
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/refint/OOPPractice.dll
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.pdb
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/OOPPractice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/OOPPractice/obj/Debug/net10.0/ref/OOPPractice.dll

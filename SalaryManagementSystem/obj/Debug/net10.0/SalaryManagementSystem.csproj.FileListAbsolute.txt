@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/bin/Debug/net10.0/SalaryManagementSystem
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/bin/Debug/net10.0/SalaryManagementSystem.deps.json
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/bin/Debug/net10.0/SalaryManagementSystem.runtimeconfig.json
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/bin/Debug/net10.0/SalaryManagementSystem.dll
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/bin/Debug/net10.0/SalaryManagementSystem.pdb
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.sourcelink.json
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.dll
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/refint/SalaryManagementSystem.dll
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.pdb
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/SalaryManagementSystem.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/SalaryManagementSystem/obj/Debug/net10.0/ref/SalaryManagementSystem.dll
