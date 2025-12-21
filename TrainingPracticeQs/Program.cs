@@ -64,8 +64,24 @@ class Program
         // arr.createArray();
         // Q22 q22 = new Q22();
         // q22.printQ22();
-        Q24 q24 = new Q24();
-        q24.printQ24();
+        // Q24 q24 = new Q24();
+        // q24.printQ24();
+        Console.WriteLine("Celsius to Fahrenheit Conversion:");
+        CelsiustoFahrenheitConversion celsius = new CelsiustoFahrenheitConversion();
+        celsius.convertTemp();
+        Console.WriteLine("\nStudent Grade Calculator:\n");
+        StudentGradeCalculator grade = new StudentGradeCalculator();
+        grade.calculateGrade();
+        Console.WriteLine("\nSum of First N Natural Numbers:\n");
+        SumofFirstNNaturalNumbers sum = new SumofFirstNNaturalNumbers();
+        sum.calculateSum();
+        Console.WriteLine("\n Factorial Calculator with Continuous Input:\n");
+        FactorialCalculatorwithContinuousInput factorial = new FactorialCalculatorwithContinuousInput();
+        factorial.calculateFactorials();
+        Console.WriteLine("\n Print First N Even Numbers:\n");
+        PrintFirstNEvenNumbers evenNum = new PrintFirstNEvenNumbers();
+        evenNum.printFirstEvenNumbers();
+        Console.ReadKey(true);
 
     }
 }
