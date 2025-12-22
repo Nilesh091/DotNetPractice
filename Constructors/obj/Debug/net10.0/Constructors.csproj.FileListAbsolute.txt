@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Constructors/bin/Debug/net10.0/Constructors
+/Users/nrs/Dot Net Dev/Constructors/bin/Debug/net10.0/Constructors.deps.json
+/Users/nrs/Dot Net Dev/Constructors/bin/Debug/net10.0/Constructors.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Constructors/bin/Debug/net10.0/Constructors.dll
+/Users/nrs/Dot Net Dev/Constructors/bin/Debug/net10.0/Constructors.pdb
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.sourcelink.json
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.dll
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/refint/Constructors.dll
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.pdb
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/Constructors.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Constructors/obj/Debug/net10.0/ref/Constructors.dll

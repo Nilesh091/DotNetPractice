@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Parameters/bin/Debug/net10.0/Parameters
+/Users/nrs/Dot Net Dev/Parameters/bin/Debug/net10.0/Parameters.deps.json
+/Users/nrs/Dot Net Dev/Parameters/bin/Debug/net10.0/Parameters.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Parameters/bin/Debug/net10.0/Parameters.dll
+/Users/nrs/Dot Net Dev/Parameters/bin/Debug/net10.0/Parameters.pdb
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.sourcelink.json
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.dll
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/refint/Parameters.dll
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.pdb
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/Parameters.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Parameters/obj/Debug/net10.0/ref/Parameters.dll
