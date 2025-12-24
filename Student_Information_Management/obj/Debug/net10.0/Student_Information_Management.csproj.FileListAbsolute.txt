@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.sourcelink.json
+/Users/nrs/Dot Net Dev/Student_Information_Management/bin/Debug/net10.0/Student_Information_Management
+/Users/nrs/Dot Net Dev/Student_Information_Management/bin/Debug/net10.0/Student_Information_Management.deps.json
+/Users/nrs/Dot Net Dev/Student_Information_Management/bin/Debug/net10.0/Student_Information_Management.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Student_Information_Management/bin/Debug/net10.0/Student_Information_Management.dll
+/Users/nrs/Dot Net Dev/Student_Information_Management/bin/Debug/net10.0/Student_Information_Management.pdb
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.dll
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/refint/Student_Information_Management.dll
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.pdb
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/Student_Information_Management.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Student_Information_Management/obj/Debug/net10.0/ref/Student_Information_Management.dll

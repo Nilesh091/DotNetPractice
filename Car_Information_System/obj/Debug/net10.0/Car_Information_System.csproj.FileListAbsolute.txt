@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Car_Information_System/bin/Debug/net10.0/Car_Information_System
+/Users/nrs/Dot Net Dev/Car_Information_System/bin/Debug/net10.0/Car_Information_System.deps.json
+/Users/nrs/Dot Net Dev/Car_Information_System/bin/Debug/net10.0/Car_Information_System.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Car_Information_System/bin/Debug/net10.0/Car_Information_System.dll
+/Users/nrs/Dot Net Dev/Car_Information_System/bin/Debug/net10.0/Car_Information_System.pdb
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.sourcelink.json
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.dll
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/refint/Car_Information_System.dll
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.pdb
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/Car_Information_System.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Car_Information_System/obj/Debug/net10.0/ref/Car_Information_System.dll

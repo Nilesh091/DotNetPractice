@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/StringConversion/bin/Debug/net10.0/StringConversion
+/Users/nrs/Dot Net Dev/StringConversion/bin/Debug/net10.0/StringConversion.deps.json
+/Users/nrs/Dot Net Dev/StringConversion/bin/Debug/net10.0/StringConversion.runtimeconfig.json
+/Users/nrs/Dot Net Dev/StringConversion/bin/Debug/net10.0/StringConversion.dll
+/Users/nrs/Dot Net Dev/StringConversion/bin/Debug/net10.0/StringConversion.pdb
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.sourcelink.json
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.dll
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/refint/StringConversion.dll
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.pdb
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/StringConversion.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/StringConversion/obj/Debug/net10.0/ref/StringConversion.dll

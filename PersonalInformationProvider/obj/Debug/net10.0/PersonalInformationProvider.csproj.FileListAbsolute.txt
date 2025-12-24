@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/bin/Debug/net10.0/PersonalInformationProvider
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/bin/Debug/net10.0/PersonalInformationProvider.deps.json
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/bin/Debug/net10.0/PersonalInformationProvider.runtimeconfig.json
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/bin/Debug/net10.0/PersonalInformationProvider.dll
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/bin/Debug/net10.0/PersonalInformationProvider.pdb
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.sourcelink.json
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.dll
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/refint/PersonalInformationProvider.dll
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.pdb
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/PersonalInformationProvider.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/PersonalInformationProvider/obj/Debug/net10.0/ref/PersonalInformationProvider.dll

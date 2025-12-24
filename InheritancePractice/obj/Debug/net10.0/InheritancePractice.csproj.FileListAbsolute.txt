@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/InheritancePractice/bin/Debug/net10.0/InheritancePractice
+/Users/nrs/Dot Net Dev/InheritancePractice/bin/Debug/net10.0/InheritancePractice.deps.json
+/Users/nrs/Dot Net Dev/InheritancePractice/bin/Debug/net10.0/InheritancePractice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/InheritancePractice/bin/Debug/net10.0/InheritancePractice.dll
+/Users/nrs/Dot Net Dev/InheritancePractice/bin/Debug/net10.0/InheritancePractice.pdb
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.sourcelink.json
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.dll
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/refint/InheritancePractice.dll
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.pdb
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/InheritancePractice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/InheritancePractice/obj/Debug/net10.0/ref/InheritancePractice.dll
