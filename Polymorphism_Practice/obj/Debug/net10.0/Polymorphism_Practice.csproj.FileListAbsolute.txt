@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/bin/Debug/net10.0/Polymorphism_Practice
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/bin/Debug/net10.0/Polymorphism_Practice.deps.json
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/bin/Debug/net10.0/Polymorphism_Practice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/bin/Debug/net10.0/Polymorphism_Practice.dll
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/bin/Debug/net10.0/Polymorphism_Practice.pdb
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.sourcelink.json
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.dll
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/refint/Polymorphism_Practice.dll
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.pdb
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/Polymorphism_Practice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Polymorphism_Practice/obj/Debug/net10.0/ref/Polymorphism_Practice.dll

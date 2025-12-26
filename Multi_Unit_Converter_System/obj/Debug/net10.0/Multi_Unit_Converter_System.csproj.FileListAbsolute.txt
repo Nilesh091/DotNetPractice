@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/bin/Debug/net10.0/Multi_Unit_Converter_System
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/bin/Debug/net10.0/Multi_Unit_Converter_System.deps.json
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/bin/Debug/net10.0/Multi_Unit_Converter_System.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/bin/Debug/net10.0/Multi_Unit_Converter_System.dll
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/bin/Debug/net10.0/Multi_Unit_Converter_System.pdb
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.sourcelink.json
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.dll
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/refint/Multi_Unit_Converter_System.dll
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.pdb
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/Multi_Unit_Converter_System.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Multi_Unit_Converter_System/obj/Debug/net10.0/ref/Multi_Unit_Converter_System.dll

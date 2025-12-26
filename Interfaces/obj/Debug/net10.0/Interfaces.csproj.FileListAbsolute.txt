@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Interfaces/bin/Debug/net10.0/Interfaces
+/Users/nrs/Dot Net Dev/Interfaces/bin/Debug/net10.0/Interfaces.deps.json
+/Users/nrs/Dot Net Dev/Interfaces/bin/Debug/net10.0/Interfaces.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Interfaces/bin/Debug/net10.0/Interfaces.dll
+/Users/nrs/Dot Net Dev/Interfaces/bin/Debug/net10.0/Interfaces.pdb
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.sourcelink.json
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.dll
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/refint/Interfaces.dll
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.pdb
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/Interfaces.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Interfaces/obj/Debug/net10.0/ref/Interfaces.dll
