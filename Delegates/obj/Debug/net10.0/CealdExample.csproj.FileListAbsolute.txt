@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/CealdExample/bin/Debug/net10.0/CealdExample
+/Users/nrs/Dot Net Dev/CealdExample/bin/Debug/net10.0/CealdExample.deps.json
+/Users/nrs/Dot Net Dev/CealdExample/bin/Debug/net10.0/CealdExample.runtimeconfig.json
+/Users/nrs/Dot Net Dev/CealdExample/bin/Debug/net10.0/CealdExample.dll
+/Users/nrs/Dot Net Dev/CealdExample/bin/Debug/net10.0/CealdExample.pdb
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.sourcelink.json
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.dll
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/refint/CealdExample.dll
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.pdb
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/CealdExample.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/CealdExample/obj/Debug/net10.0/ref/CealdExample.dll

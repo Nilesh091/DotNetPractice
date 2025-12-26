@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CealdExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0858cbad0baa4d9187244c9a23d48b1b70f0f7a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5980605c0f50f731bc337e4673e55de45996a20e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CealdExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CealdExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
