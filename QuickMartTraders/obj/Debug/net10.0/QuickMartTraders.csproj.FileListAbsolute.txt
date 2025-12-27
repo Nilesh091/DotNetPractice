@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/QuickMartTraders/bin/Debug/net10.0/QuickMartTraders
+/Users/nrs/Dot Net Dev/QuickMartTraders/bin/Debug/net10.0/QuickMartTraders.deps.json
+/Users/nrs/Dot Net Dev/QuickMartTraders/bin/Debug/net10.0/QuickMartTraders.runtimeconfig.json
+/Users/nrs/Dot Net Dev/QuickMartTraders/bin/Debug/net10.0/QuickMartTraders.dll
+/Users/nrs/Dot Net Dev/QuickMartTraders/bin/Debug/net10.0/QuickMartTraders.pdb
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.sourcelink.json
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.dll
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/refint/QuickMartTraders.dll
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.pdb
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/QuickMartTraders.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/QuickMartTraders/obj/Debug/net10.0/ref/QuickMartTraders.dll

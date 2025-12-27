@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/MediSureClinic/bin/Debug/net10.0/MediSureClinic
+/Users/nrs/Dot Net Dev/MediSureClinic/bin/Debug/net10.0/MediSureClinic.deps.json
+/Users/nrs/Dot Net Dev/MediSureClinic/bin/Debug/net10.0/MediSureClinic.runtimeconfig.json
+/Users/nrs/Dot Net Dev/MediSureClinic/bin/Debug/net10.0/MediSureClinic.dll
+/Users/nrs/Dot Net Dev/MediSureClinic/bin/Debug/net10.0/MediSureClinic.pdb
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.sourcelink.json
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.dll
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/refint/MediSureClinic.dll
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.pdb
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/MediSureClinic.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/MediSureClinic/obj/Debug/net10.0/ref/MediSureClinic.dll
