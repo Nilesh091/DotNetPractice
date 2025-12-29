@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/bin/Debug/net10.0/ArrayImplementationInCSharp
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/bin/Debug/net10.0/ArrayImplementationInCSharp.deps.json
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/bin/Debug/net10.0/ArrayImplementationInCSharp.runtimeconfig.json
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/bin/Debug/net10.0/ArrayImplementationInCSharp.dll
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/bin/Debug/net10.0/ArrayImplementationInCSharp.pdb
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.sourcelink.json
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.dll
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/refint/ArrayImplementationInCSharp.dll
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.pdb
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ArrayImplementationInCSharp.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/ArrayImplementationInCSharp/obj/Debug/net10.0/ref/ArrayImplementationInCSharp.dll
