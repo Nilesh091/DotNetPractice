@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArrayImplementationInCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b572f65c70732b6c89ebbd07975d77939f309170")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e32a127113a47f1143838fd23a8c1bbc5e97876")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArrayImplementationInCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArrayImplementationInCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

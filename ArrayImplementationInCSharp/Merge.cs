@@ -2,7 +2,7 @@ using System.Data;
 
 class Merge
 {
-  public static void MergedArray(int[] arr, int left, int right, int mid)
+  public static void MergedArray(int[] arr, int left, int mid, int right)
   {
     int n1 = mid - left + 1;
     int n2 = right - mid;
