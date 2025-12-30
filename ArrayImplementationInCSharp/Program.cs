@@ -25,15 +25,16 @@
     // FrequencyOfAElement.printFrequencyofEachElement(arr);
 
     // ComparablesInCsharp.AccessObject();
-    int[] arr1 = { 12, 43, 10, 8 };
-    int[] arr2 = { 13, 15, 17, 9 };
-    MergeSort.ImplementMergeSort(arr1);
-    MergeSort.ImplementMergeSort(arr2);
-    int[] aftersortingAndMergingTwoUnsortedArray = MergeTwoSortedArray.mergeTwoSortedArray(arr1, arr2);
-    foreach (int n in aftersortingAndMergingTwoUnsortedArray)
-    {
-      Console.WriteLine(n);
-    }
+    // int[] arr1 = { 12, 43, 10, 8 };
+    // int[] arr2 = { 13, 15, 17, 9 };
+    // MergeSort.ImplementMergeSort(arr1);
+    // MergeSort.ImplementMergeSort(arr2);
+    // int[] aftersortingAndMergingTwoUnsortedArray = MergeTwoSortedArray.mergeTwoSortedArray(arr1, arr2);
+    // foreach (int n in aftersortingAndMergingTwoUnsortedArray)
+    // {
+    //   Console.WriteLine(n);
+    // }
+    StringManipulation.ManipulateString();
   }
   public int[] returnArray()
   {
