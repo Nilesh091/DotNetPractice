@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/GenericsPractice/bin/Debug/net10.0/GenericsPractice
+/Users/nrs/Dot Net Dev/GenericsPractice/bin/Debug/net10.0/GenericsPractice.deps.json
+/Users/nrs/Dot Net Dev/GenericsPractice/bin/Debug/net10.0/GenericsPractice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/GenericsPractice/bin/Debug/net10.0/GenericsPractice.dll
+/Users/nrs/Dot Net Dev/GenericsPractice/bin/Debug/net10.0/GenericsPractice.pdb
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.sourcelink.json
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.dll
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/refint/GenericsPractice.dll
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.pdb
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/GenericsPractice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/GenericsPractice/obj/Debug/net10.0/ref/GenericsPractice.dll
