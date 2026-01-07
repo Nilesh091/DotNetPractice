@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/bin/Debug/net10.0/TempConversionUsingExceptionHandeling
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/bin/Debug/net10.0/TempConversionUsingExceptionHandeling.deps.json
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/bin/Debug/net10.0/TempConversionUsingExceptionHandeling.runtimeconfig.json
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/bin/Debug/net10.0/TempConversionUsingExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/bin/Debug/net10.0/TempConversionUsingExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.sourcelink.json
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/refint/TempConversionUsingExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/TempConversionUsingExceptionHandeling.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/TempConversionUsingExceptionHandeling/obj/Debug/net10.0/ref/TempConversionUsingExceptionHandeling.dll

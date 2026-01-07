@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/bin/Debug/net10.0/ArrayAdditionAndExceptionHandeling
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/bin/Debug/net10.0/ArrayAdditionAndExceptionHandeling.deps.json
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/bin/Debug/net10.0/ArrayAdditionAndExceptionHandeling.runtimeconfig.json
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/bin/Debug/net10.0/ArrayAdditionAndExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/bin/Debug/net10.0/ArrayAdditionAndExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.sourcelink.json
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/refint/ArrayAdditionAndExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ArrayAdditionAndExceptionHandeling.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/ArrayAdditionAndExceptionHandeling/obj/Debug/net10.0/ref/ArrayAdditionAndExceptionHandeling.dll

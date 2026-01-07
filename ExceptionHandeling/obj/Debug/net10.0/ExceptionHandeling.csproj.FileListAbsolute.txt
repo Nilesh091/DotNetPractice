@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.sourcelink.json
+/Users/nrs/Dot Net Dev/ExceptionHandeling/bin/Debug/net10.0/ExceptionHandeling
+/Users/nrs/Dot Net Dev/ExceptionHandeling/bin/Debug/net10.0/ExceptionHandeling.deps.json
+/Users/nrs/Dot Net Dev/ExceptionHandeling/bin/Debug/net10.0/ExceptionHandeling.runtimeconfig.json
+/Users/nrs/Dot Net Dev/ExceptionHandeling/bin/Debug/net10.0/ExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ExceptionHandeling/bin/Debug/net10.0/ExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/refint/ExceptionHandeling.dll
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.pdb
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ExceptionHandeling.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/ExceptionHandeling/obj/Debug/net10.0/ref/ExceptionHandeling.dll
