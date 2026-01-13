@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/PracticeSerializable/bin/Debug/net10.0/PracticeSerializable
+/Users/nrs/Dot Net Dev/PracticeSerializable/bin/Debug/net10.0/PracticeSerializable.deps.json
+/Users/nrs/Dot Net Dev/PracticeSerializable/bin/Debug/net10.0/PracticeSerializable.runtimeconfig.json
+/Users/nrs/Dot Net Dev/PracticeSerializable/bin/Debug/net10.0/PracticeSerializable.dll
+/Users/nrs/Dot Net Dev/PracticeSerializable/bin/Debug/net10.0/PracticeSerializable.pdb
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.sourcelink.json
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.dll
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/refint/PracticeSerializable.dll
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.pdb
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/PracticeSerializable.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/PracticeSerializable/obj/Debug/net10.0/ref/PracticeSerializable.dll
