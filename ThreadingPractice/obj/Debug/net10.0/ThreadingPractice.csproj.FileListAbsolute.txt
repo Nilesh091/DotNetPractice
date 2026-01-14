@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/ThreadingPractice/bin/Debug/net10.0/ThreadingPractice
+/Users/nrs/Dot Net Dev/ThreadingPractice/bin/Debug/net10.0/ThreadingPractice.deps.json
+/Users/nrs/Dot Net Dev/ThreadingPractice/bin/Debug/net10.0/ThreadingPractice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/ThreadingPractice/bin/Debug/net10.0/ThreadingPractice.dll
+/Users/nrs/Dot Net Dev/ThreadingPractice/bin/Debug/net10.0/ThreadingPractice.pdb
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.sourcelink.json
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.dll
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/refint/ThreadingPractice.dll
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.pdb
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ThreadingPractice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/ThreadingPractice/obj/Debug/net10.0/ref/ThreadingPractice.dll
