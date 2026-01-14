@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/LINQPractice/bin/Debug/net10.0/LINQPractice
+/Users/nrs/Dot Net Dev/LINQPractice/bin/Debug/net10.0/LINQPractice.deps.json
+/Users/nrs/Dot Net Dev/LINQPractice/bin/Debug/net10.0/LINQPractice.runtimeconfig.json
+/Users/nrs/Dot Net Dev/LINQPractice/bin/Debug/net10.0/LINQPractice.dll
+/Users/nrs/Dot Net Dev/LINQPractice/bin/Debug/net10.0/LINQPractice.pdb
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.sourcelink.json
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.dll
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/refint/LINQPractice.dll
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.pdb
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/LINQPractice.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/LINQPractice/obj/Debug/net10.0/ref/LINQPractice.dll
