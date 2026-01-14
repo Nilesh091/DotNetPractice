@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/bin/Debug/net10.0/LINQ_Assignment_BoilerPlateCode
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/bin/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.deps.json
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/bin/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.runtimeconfig.json
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/bin/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.dll
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/bin/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.pdb
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.sourcelink.json
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.dll
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/refint/LINQ_Assignment_BoilerPlateCode.dll
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.pdb
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/LINQ_Assignment_BoilerPlateCode.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/LINQProject/LINQ_Assignment_BoilerPlateCode/obj/Debug/net10.0/ref/LINQ_Assignment_BoilerPlateCode.dll
