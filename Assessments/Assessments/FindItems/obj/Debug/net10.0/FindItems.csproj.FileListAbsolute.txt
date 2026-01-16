@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.sourcelink.json
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/bin/Debug/net10.0/FindItems
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/bin/Debug/net10.0/FindItems.deps.json
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/bin/Debug/net10.0/FindItems.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/bin/Debug/net10.0/FindItems.dll
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/bin/Debug/net10.0/FindItems.pdb
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.dll
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/refint/FindItems.dll
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.pdb
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/FindItems.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Assessments/Assessments/FindItems/obj/Debug/net10.0/ref/FindItems.dll

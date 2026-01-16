@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nrs/Dot Net Dev/File Handeling/Assessment10thJan/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj": {}
+    "/Users/nrs/Dot Net Dev/Assessments/Assessments/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj": {}
   },
   "projects": {
-    "/Users/nrs/Dot Net Dev/File Handeling/Assessment10thJan/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj": {
+    "/Users/nrs/Dot Net Dev/Assessments/Assessments/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nrs/Dot Net Dev/File Handeling/Assessment10thJan/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj",
+        "projectUniqueName": "/Users/nrs/Dot Net Dev/Assessments/Assessments/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj",
         "projectName": "StudentGradeChangeNotificationSystemUsingEvents",
-        "projectPath": "/Users/nrs/Dot Net Dev/File Handeling/Assessment10thJan/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj",
+        "projectPath": "/Users/nrs/Dot Net Dev/Assessments/Assessments/StudentGradeChangeNotificationSystemUsingEvents/StudentGradeChangeNotificationSystemUsingEvents.csproj",
         "packagesPath": "/Users/nrs/.nuget/packages/",
-        "outputPath": "/Users/nrs/Dot Net Dev/File Handeling/Assessment10thJan/StudentGradeChangeNotificationSystemUsingEvents/obj/",
+        "outputPath": "/Users/nrs/Dot Net Dev/Assessments/Assessments/StudentGradeChangeNotificationSystemUsingEvents/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nrs/.nuget/NuGet/NuGet.Config"

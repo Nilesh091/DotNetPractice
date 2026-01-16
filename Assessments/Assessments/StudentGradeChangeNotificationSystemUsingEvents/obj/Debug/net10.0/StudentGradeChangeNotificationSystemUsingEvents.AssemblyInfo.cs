@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentGradeChangeNotificationSystemUsingEvents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f46e9f2cfc6ce7771fb36d62fbb93c6a0735556")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0a2cb57a72ec3823198b2b410f647b0511b80d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentGradeChangeNotificationSystemUsingEvents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentGradeChangeNotificationSystemUsingEvents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
