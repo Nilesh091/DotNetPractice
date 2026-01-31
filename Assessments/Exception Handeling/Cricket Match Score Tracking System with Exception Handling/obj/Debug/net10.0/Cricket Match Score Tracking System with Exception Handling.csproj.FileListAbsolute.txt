@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/bin/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/bin/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.deps.json
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/bin/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.runtimeconfig.json
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/bin/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.dll
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/bin/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.pdb
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.sourcelink.json
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.dll
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/refint/Cricket Match Score Tracking System with Exception Handling.dll
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.pdb
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/Cricket Match Score Tracking System with Exception Handling.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/Assessments/Exception Handeling/Cricket Match Score Tracking System with Exception Handling/obj/Debug/net10.0/ref/Cricket Match Score Tracking System with Exception Handling.dll

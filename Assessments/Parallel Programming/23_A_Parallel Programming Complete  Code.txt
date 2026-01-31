@@ -1,0 +1,859 @@
+Introduction To Parallel Programming
+-------------------------------------
+Parallel programming is a programming model wherein the execution 
+flow of the application is broken up into pieces that will be done 
+at the same time (concurrently) by multiple cores, 
+processors, or computers for the sake of better performance.	
+
+
+Beginning With Task Programming Library
+---------------------------------------
+The support of parallel programming within the .Net framework is not new 
+since it is supported from its very first version 1.0. 
+
+We refer to this as a classic threading model. 
+Even though it works really well, managing all the parallel aspects is complicated, 
+so many times the applications end with unexpected results.
+
+On the other hand, the TPL is built on the foundation of the classic threading features and 
+manages many aspects for you, so you will need to write less code to achieve 
+the same behavior. 
+
+Actually, the reduction of the amount of code is huge.
+
+We start with the basics of the Task class that can be considered to be the heart of the entire library
+
+
+Creating And Starting New Task
+------------------------------
+Add the following namespace in your project.
+	using System.Threading.Tasks;  
+
+
+In the simplest scenarios to create and start a task, 
+you just need to provide its body that represents the 
+workload you want to run in parallel by passing in a 
+System.Action delegate
+
+There are several ways to declare the task's body. 
+
+These are listed below and demonstrated in the first example.
+•	Using Action delegate
+•	Using anonymous function
+•	Using lambda function
+
+
+
+For the sake of simplicity, our pieces of workload running concurrently will be represented by 
+a simple HelloConsole method that will print one line to the console.
+
+1.	static void HelloConsole()  
+2.	{  
+3.	       Console.WriteLine("Hello Task");  
+4.	}  
+
+After creating a new instance of the Task class and passing the workload 
+you want to perform in the constructor argument, 
+you just need to call the instance Start() method to begin with the execution. 
+
+The following example shows the three options for declaring the Task object along with the console output.
+
+
+using System.Threading.Tasks;
+
+static void HelloConsole()  
+	{  
+	       Console.WriteLine("Hello Task");  
+	} 
+
+
+	static void Main(string[] args)  
+	{  
+	     //Action delegate  
+	     Task task1 = new Task(new Action(HelloConsole));  
+	  
+	     //anonymous function  
+	     Task task2 = new Task(delegate  
+	     {  
+	          HelloConsole();  
+	     });  
+	              
+	     //lambda expression  
+	     Task task3 = new Task(() => HelloConsole());                        
+	              
+	     task1.Start();  
+	     task2.Start();  
+	     task3.Start();  
+	              
+	     Console.WriteLine("Main method complete. Press any key to finish.");  
+	     Console.ReadKey();  
+	}  
+
+
+Note: If you have some simple and short-living tasks, you can start them directly using the 
+Task.Factory.StartNew() static method without having to explicitly create the object.
+
+	Task.Factory.StartNew(() => {  
+	     HelloConsole()  
+	});  
+
+
+Setting Task State
+------------------
+If you need to perform the same workload on a different set of data or 
+just need to provide some parameter to the task, you need to pass in a 
+
+System.Action<object> and an object representing these data/parameters. 
+
+This process is very similar to supplying your console application 
+with command line arguments
+
+The following example shows this process by providing a simple string 
+argument that will be printed to the console during the workload execution. 
+
+using System.Threading.Tasks;
+	static void HelloConsole(object message)  
+	{  
+	     Console.WriteLine("Hello: {0}", message);  
+	}  
+
+	static void Main(string[] args)  
+	{  
+	     //Action delegate  
+	     Task task1 = new Task(new Action<object>(HelloConsole), "Task 1");  
+	  
+	     //anonymous function  
+	     Task task2 = new Task(delegate(object obj)  
+	     {  
+	          HelloConsole(obj);  
+	     }, "Task 2");  
+	  
+	     //lambda expression  
+	     Task task3 = new Task((obj) => HelloConsole(obj), "Task 3");  
+	  
+	     task1.Start();  
+	     task2.Start();  
+	     task3.Start();  
+	  
+	     Console.WriteLine("Main method complete. Press any key to finish.");  
+	     Console.ReadKey();  
+	}   
+
+Getting A Task's Result
+-------------------------
+To get a result from a Task, 
+you need to create an instance of Task<T> 
+instead of just a pure Task. 
+
+T represents the type of the result that will be returned. 
+
+Returning the desired result is identical to other C# methods, 
+so you use the "return" keyword. 
+
+Finally, to fetch the result, you need to 
+call the Result property. 
+
+Note that reading this property will wait until its task has completed.
+using System.Threading.Tasks;
+
+	static void Main(string[] args)  
+	{  
+	     //creating the task  
+	     Task<int> task1 = new Task<int>(() =>  
+	     {  
+	          int result = 1;  
+	                  
+	          for (int i = 1; i < 10; i++)  
+	               result *= i;  
+	  
+	          return result;  
+	     });  
+	              
+	     //starting the task  
+	     task1.Start();  
+	              
+	     //waiting for result - printing to the console  
+	     Console.WriteLine("Task result: {0}", task1.Result);              
+	              
+	     Console.WriteLine("Main method complete. Press any key to finish.");  
+	     Console.ReadKey();  
+	}  
+
+
+=========================================================================================================================
+Cancelling A Task
+------------------
+If we have more complex tasks that take some time to complete, 
+we undoubtedly need a way how to cancel them before they finish 
+if needed. 
+
+For this purpose, the TPL introduced cancellation tokens that are used to cancel the given tasks.
+
+To be able to cancel a started task, we need to provide an instance of a 
+CancellationToken in the task's constructor.
+
+1.	Task task = new Task(() =>  
+2.	{  
+3.	     //task's body  
+4.	}, token);  
+
+Acquiring this token is a two-step process:
+First, we need to create an instance of CancellationTokenSource:
+1.	CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();   
+
+Next, to get the required CancellationToken instance, we call the CancellationTokenSource.Token property:
+2.	CancellationToken token = cancellationTokenSource.Token;  
+
+Finally, when the token is acquired and passed to the task's constructor, 
+we simply call the Cancel() method of CancellationTokenSource to cancel it.
+
+3.	cancellationTokenSource.Cancel();  
+
+Calling the Cancel() method won't cancel the task immediately. 
+Therefore, in the body of a given task you need to monitor the 
+token whether a cancellation was requested by checking the 
+token's IsCancellationRequested property. 
+
+Once set to true, a cancellation was requested and you can cancel 
+it either by calling "return" or throwing an OperationCanceledException.
+
+4.	if (token.IsCancellationRequested)  
+	{  
+             Console.WriteLine("Cancel() called.");  
+             return;  
+	}  
+
+
+The following example shows a basic use of cancellation tokens to cancel a running task.
+using System.Threading;
+using System.Threading.Tasks;
+	static void Main(string[] args)  
+	{  
+	    /creating the cancelation token  
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            CancellationToken token = cancellationTokenSource.Token;
+
+            //creating the task  
+            Task task = new Task(() =>
+            {
+                for (int i = 0; i < 100000; i++)
+                {
+                    if (token.IsCancellationRequested)
+                    {
+                        Console.WriteLine("Cancel() called.");
+                        return;
+                    }
+
+                    Console.WriteLine("Loop value {0}", i);
+                    Thread.Sleep(500);
+                }
+            }, token);
+
+            Console.WriteLine("Press any key to start task");
+            Console.WriteLine("Press any key again to cancel the running task");
+            Console.ReadKey();
+
+            //starting the task  
+            task.Start();
+
+            //reading a console key  
+            Console.ReadKey();
+
+            //canceling the task  
+            Console.WriteLine("Canceling task");
+            cancellationTokenSource.Cancel();
+
+            Console.WriteLine("Main method complete. Press any key to finish.");
+            Console.ReadKey();
+
+	}  
+
+====================================================================================
+Task Parallel Library (TPL) 
+----------------------------
+The Task Parallel Library (TPL) is designed to make it much easier for the developer to 
+write code that can automatically use multiple processors. 
+
+Using the library, you can conveniently express potential parallelism in existing sequential code, 
+where the exposed parallel tasks will be run concurrently on all available processors. 
+
+Usually this results in significant speedups
+
+
+TPL is a major component of the Parallel FX library, the next generation of concurrency support for the Microsoft .NET Framework.
+
+The Parallel Class :  which include
+1.	Parallel.For (refer  article : http://www.c-sharpcorner.com/UploadFile/61b832/4178/) 
+2.	Parallel.Foreach (refer article : http://www.c-sharpcorner.com/UploadFile/61b832/4178/) 
+3.	Parallel.Invoke
+
+
+=====================================================================================================================================================
+
+1.	Parallel.For 
+--------------------
+
+TPL is a major component of the Parallel FX library, the next generation of concurrency support for the Microsoft .NET Framework.
+
+The iterations are independent of each other, that is, 
+subsequent iterations do not read state updates made by prior 
+iterations, you can use TPL to run each iteration in parallel 
+on available cores, like this.
+
+public static async Task Main(string[] args)
+{
+    int[] a = new int[100];
+    //Parallel.For Loop in .NET
+    Parallel.For(0, 100, i =>
+    {
+        a[i] = a[i] * a[i];
+        Console.Write($"Index {i}, Value {a[i]}");
+        Console.WriteLine();
+
+    });
+}
+
+
+
+With Object Try on .NET Core C# 8.0 above
+------------------------------------------
+internal class Program
+{
+    class Order
+    {
+        public int OrderId { get; set; }
+        public double Amount { get; set; }
+    }
+
+   
+public static async Task Main(string[] args)
+    {
+        var orders = new List<Order>
+{
+    new() { OrderId = 1, Amount = 1200 },
+    new() { OrderId = 2, Amount = 800 },
+    new() { OrderId = 3, Amount = 4500 }
+};
+
+        Parallel.ForEach(orders, order =>
+        {
+            Console.WriteLine(
+                $"Order {order.OrderId} processed on Thread {Environment.CurrentManagedThreadId}"
+            );
+        });
+}
+
+=======================================================================================================================
+What is Parallel.ForEach?
+
+Parallel.ForEach executes each item of a collection concurrently using multiple threads.
+
+✔ Best for CPU-bound work
+✔ Automatically uses available CPU cores
+✔ Order of execution is NOT guaranteed
+
+
+Namespace required:
+
+using System.Threading.Tasks;
+
+
+
+Parallel.ForEach – Simple Collection Example
+🔹 Example: Processing a list of integers
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+class Program
+{
+    static void Main()
+    {
+        List<int> numbers = new() { 1, 2, 3, 4, 5 };
+
+        Parallel.ForEach(numbers, number =>
+        {
+            Console.WriteLine(
+                $"Number: {number}, Thread: {Environment.CurrentManagedThreadId}"
+            );
+        });
+
+        Console.WriteLine("All numbers processed.");
+    }
+}
+
+🔍 Output (sample – order may vary)
+Number: 3, Thread: 6
+Number: 1, Thread: 4
+Number: 5, Thread: 7
+Number: 2, Thread: 5
+Number: 4, Thread: 6
+
+
+=====================================================================================================================================
+Parallel.ForEach – Object Collection Example
+----------------------------------------------
+🔹 Example: Processing Employee objects
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+class Employee
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public double Salary { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        List<Employee> employees = new()
+        {
+            new Employee { Id = 1, Name = "Ravi", Salary = 50000 },
+            new Employee { Id = 2, Name = "Anil", Salary = 60000 },
+            new Employee { Id = 3, Name = "Sita", Salary = 55000 }
+        };
+
+        Parallel.ForEach(employees, emp =>
+        {
+            Console.WriteLine(
+                $"Employee: {emp.Name}, Salary: {emp.Salary}, Thread: {Environment.CurrentManagedThreadId}"
+            );
+        });
+
+        Console.WriteLine("All employees processed.");
+    }
+}
+
+🔍 Sample Output
+Employee: Anil, Salary: 60000, Thread: 6
+Employee: Ravi, Salary: 50000, Thread: 4
+Employee: Sita, Salary: 55000, Thread: 5
+
+
+=======================================================================================================================================
+=======================================================================================================================================
+What is Parallel.Invoke()?
+
+Parallel.Invoke() is used to run multiple independent methods in parallel.
+
+✔ Best for running different actions concurrently
+✔ Automatically uses ThreadPool threads
+✔ Ideal when you have fixed number of independent tasks
+
+Namespace:
+
+using System.Threading.Tasks;
+
+1️⃣ Basic Syntax
+Parallel.Invoke(
+    action1,
+    action2,
+    action3
+);
+
+
+Each action is executed in parallel.
+
+
+internal partial class Program
+{
+    public static void A()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+
+            Console.WriteLine("Loop value {0}", i);
+            Thread.Sleep(500);
+        }
+    }
+    public static void B()
+    {
+        //DoSomeWork of B
+        for (int i = 11; i < 20; i++)
+        {
+
+            Console.WriteLine("Loop value {0}", i);
+            Thread.Sleep(500);
+        }
+    }
+    public static void C()
+    {
+        //DoSomeWork of C
+        for (int i = 21; i < 30; i++)
+        {
+
+            Console.WriteLine("Loop value {0}", i);
+            Thread.Sleep(500);
+        }
+    }
+    public static void D()
+    {
+        //DoSomeWork of D
+        //DoSomeWork of C
+        for (int i = 31; i < 40; i++)
+        {
+
+            Console.WriteLine("Loop value {0}", i);
+            Thread.Sleep(500);
+        }
+    }
+    public static void E()
+    {
+        //DoSomeWork of E
+        //DoSomeWork of C
+        for (int i = 41; i < 50; i++)
+        {
+
+            Console.WriteLine("Loop value {0}", i);
+            Thread.Sleep(500);
+        }
+    }
+
+
+    public static  void Main(string[] args)
+    {
+        Parallel.Invoke(() => A(), () => B(), () => C(), () => D(), () => E());
+        Console.ReadLine();
+
+    }
+}
+
+=============================================================================================================================================
+===============================================================================================================================================
+What is PLINQ (Parallel LINQ)?
+--------------------------------
+
+PLINQ allows you to execute LINQ queries in parallel using multiple CPU cores.
+
+PLINQ = LINQ + Parallel Execution
+
+It internally uses the Task Parallel Library (TPL).
+
+🔹 Why PLINQ?
+
+✔ Faster processing for CPU-bound queries
+✔ Minimal code change
+✔ Automatic thread management
+✔ Scales with CPU cores
+
+Key Method
+.AsParallel() : This converts a LINQ query into a parallel query.
+
+internal partial class Program
+{
+    public static  void Main(string[] args)
+    {
+        // Parallel.Invoke(() => A(), () => B(), () => C(), () => D(), () => E());
+        var numbers = Enumerable.Range(1, 10);
+
+        var result = numbers
+            .AsParallel()
+            .Where(n => n % 2 == 0)
+            .Select(n =>
+            {
+                Console.WriteLine(
+                    $"Processing {n} on Thread {Thread.CurrentThread.ManagedThreadId}"
+                );
+                return$"{ n} =>{n * n}";
+            })
+            .ToList();
+
+        Console.WriteLine("Result:");
+        result.ForEach(Console.WriteLine);
+
+
+        Console.ReadLine();
+
+    }
+}
+
+
+Object Collection Example (Employee)
+---------------------------------------
+
+internal partial class Program
+{
+    class Employee
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public double Salary { get; set; }
+    }
+    public static  void Main(string[] args)
+    {
+        var employees = new[]
+{
+    new Employee { Id = 1, Name = "Ravi", Salary = 50000 },
+    new Employee { Id = 2, Name = "Anil", Salary = 60000 },
+    new Employee { Id = 3, Name = "Sita", Salary = 55000 },
+    new Employee { Id = 4, Name = "John", Salary = 70000 }
+};
+
+        var highPaidEmployees = employees
+            .AsParallel()
+            .Where(e => e.Salary > 55000)
+            .Select(e =>
+            {
+                Console.WriteLine(
+                    $"Processing {e.Name} on Thread {Thread.CurrentThread.ManagedThreadId}"
+                );
+                return new
+                {
+                    e.Name,
+                    IncreasedSalary = e.Salary * 1.10
+                };
+            })
+            .ToList();        
+	   Console.ReadLine();
+
+    }
+}
+
+===============================================================================================================
+Mini Project: Parallel + LINQ (PLINQ) in C#
+📌 Project Title: Parallel Student Result Analyzer
+
+This mini project demonstrates data parallelism using PLINQ to process large datasets efficiently.
+
+Problem Statement
+
+You are given a large list of students with marks in multiple subjects.
+
+Requirements:
+
+Generate 10,000 students
+
+Calculate total marks
+
+Filter passed students
+
+Rank top 10 students
+
+Use Parallel + LINQ (PLINQ) for performance
+
+
+Project Structure
+StudentParallelAnalyzer
+│
+├── Program.cs
+├── Student.cs
+
+
+Step 1: Student Model
+---------------------
+public class Student
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public int Math { get; set; }
+    public int Science { get; set; }
+    public int English { get; set; }
+
+    public int Total => Math + Science + English;
+}
+
+⚙️ Step 2: Generate Sample Data
+--------------------------------
+static List<Student> GenerateStudents(int count)
+{
+    Random rand = new Random();
+
+    return Enumerable.Range(1, count)
+        .Select(i => new Student
+        {
+            Id = i,
+            Name = $"Student{i}",
+            Math = rand.Next(35, 100),
+            Science = rand.Next(35, 100),
+            English = rand.Next(35, 100)
+        })
+        .ToList();
+}
+
+
+Step 3: Sequential LINQ Processing
+-----------------------------------
+static void ProcessWithLINQ(List<Student> students)
+{
+    var stopwatch = Stopwatch.StartNew();
+
+    var toppers = students
+        .Where(s => s.Total >= 120)     // Pass criteria
+        .OrderByDescending(s => s.Total)
+        .Take(10)
+        .ToList();
+
+    stopwatch.Stop();
+    Console.WriteLine($"LINQ Time: {stopwatch.ElapsedMilliseconds} ms");
+}
+
+Step 4: Parallel LINQ (PLINQ) Processing
+----------------------------------------
+static void ProcessWithPLINQ(List<Student> students)
+{
+    var stopwatch = Stopwatch.StartNew();
+
+    var toppers = students
+        .AsParallel()
+        .WithDegreeOfParallelism(Environment.ProcessorCount)
+        .Where(s => s.Total >= 120)
+        .OrderByDescending(s => s.Total)
+        .Take(10)
+        .ToList();
+
+    stopwatch.Stop();
+    Console.WriteLine($"PLINQ Time: {stopwatch.ElapsedMilliseconds} ms");
+}
+
+
+
+Step 5: Complete Program.cs
+using System.Diagnostics;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Generating students...");
+        var students = GenerateStudents(10_000);
+
+        ProcessWithLINQ(students);
+        ProcessWithPLINQ(students);
+
+        Console.WriteLine("Done.");
+    }
+
+    // Paste GenerateStudents, ProcessWithLINQ, ProcessWithPLINQ here
+}
+
+📊 Sample Output
+LINQ Time: 42 ms
+PLINQ Time: 12 ms
+
+
+(Results vary based on CPU cores)
+
+=====================================================================================================================
+What is Task.Run()?
+
+Task.Run() queues work to the ThreadPool and runs it asynchronously.
+
+✔ Most common way to run background work
+✔ Simple syntax
+✔ Integrates perfectly with async / await
+
+Namespace:
+
+using System.Threading.Tasks;
+
+1️⃣ Basic Syntax
+Task.Run(() =>
+{
+    // Background work
+});
+
+
+With return value:
+
+Task<int> task = Task.Run(() => 10 * 10);
+
+
+Simple Example – Task.Run
+using System;
+using System.Threading.Tasks;
+
+class Program
+{
+    static async Task Main()
+    {
+        Console.WriteLine("Main thread started");
+
+        await Task.Run(() =>
+        {
+            Console.WriteLine(
+                $"Running in background thread {Environment.CurrentManagedThreadId}"
+            );
+            Task.Delay(2000).Wait(); // simulate work
+        });
+
+        Console.WriteLine("Main thread completed");
+    }
+}
+
+🔍 Output (Sample)
+Main thread started
+Running in background thread 6
+Main thread completed
+
+
+✔ UI / Main thread not blocked
+
+
+Task.Run with Return Value
+static async Task Main()
+{
+    int result = await Task.Run(() =>
+    {
+        return 20 * 5;
+    });
+
+    Console.WriteLine($"Result: {result}");
+}
+
+Task.Run with Collection (Parallel Execution)
+----------------------------------------------
+var numbers = Enumerable.Range(1, 5);
+
+var tasks = numbers.Select(n =>
+    Task.Run(() =>
+    {
+        Console.WriteLine($"Processing {n} on Thread {Environment.CurrentManagedThreadId}");
+        return n * n;
+    })
+);
+
+int[] results = await Task.WhenAll(tasks);
+
+Console.WriteLine(string.Join(", ", results));
+
+
+
+Task.Run with Object Collection
+----------------------------------
+class Employee
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+}
+
+var employees = new List<Employee>
+{
+    new() { Id = 1, Name = "Ravi" },
+    new() { Id = 2, Name = "Anil" },
+    new() { Id = 3, Name = "Sita" }
+};
+
+var tasks = employees.Select(emp =>
+    Task.Run(() =>
+    {
+        Console.WriteLine($"Processing {emp.Name} on Thread {Environment.CurrentManagedThreadId}");
+        return emp.Name.ToUpper();
+    })
+);
+
+var result = await Task.WhenAll(tasks);
+
+
+
+
+
+
+
+
+
+
+
+
