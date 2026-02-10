@@ -44,10 +44,10 @@ namespace University_Course_Registration_System
                             Console.Write("Enter course name: ");
                             string cName = Console.ReadLine();
                             Console.Write("Enter course credits: ");
-                            int cCredits = int.Parse(Console.ReadLine() ?? "0");
+                            int cCredits = int.Parse(Console.ReadLine());
                             Console.Write("Enter max capacity (default 50): ");
                             string capInput = Console.ReadLine();
-                            int maxCap = string.IsNullOrWhiteSpace(capInput) ? 50 : int.Parse(capInput);
+                            int maxCap = int.Parse(capInput);
                             Console.Write("Enter prerequisites (comma-separated course codes, or leave blank): ");
                             string prereqInput = Console.ReadLine();
                             List<string> prereqs = null;
@@ -68,14 +68,13 @@ namespace University_Course_Registration_System
                             string major = Console.ReadLine();
                             Console.Write("Enter max credits (default 18): ");
                             string maxCrInput = Console.ReadLine();
-                            int maxCr = string.IsNullOrWhiteSpace(maxCrInput) ? 18 : int.Parse(maxCrInput);
+                            int maxCr = int.Parse(maxCrInput);
                             Console.Write("Enter completed courses (comma-separated course codes, or leave blank): ");
                             string completedInput = Console.ReadLine();
                             List<string> completed = null;
-                            if (!string.IsNullOrWhiteSpace(completedInput))
-                            {
-                                completed = completedInput.Split(',').Select(p => p.Trim()).Where(p => p.Length > 0).ToList();
-                            }
+
+                            completed = completedInput.Split(',');
+
                             system.AddStudent(sId, sName, major, maxCr, completed);
                             Console.WriteLine("Student added successfully.");
                             break;
