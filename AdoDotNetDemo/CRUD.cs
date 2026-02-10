@@ -51,6 +51,7 @@ class CRUD
   {
     string command = $"insert into student values({id},'{name}','{course}',{marks})";
     SqlCommand cmd = new SqlCommand(command, con);
-    cmd.ExecuteNonQuery();
+    int count = cmd.ExecuteNonQuery();
+    Console.WriteLine(count + " rows are inserted");
   }
 }

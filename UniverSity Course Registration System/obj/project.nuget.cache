@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XdB8gEWvtek=",
+  "success": true,
+  "projectFilePath": "/Users/nrs/Downloads/assesmentquestionboilerplate/UniverSity Course Registration System/UniverSity Course Registration System/UniverSity Course Registration System.csproj",
+  "expectedPackageFiles": [
+    "/Users/nrs/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/nrs/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/nrs/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.22/microsoft.netcore.app.host.osx-arm64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

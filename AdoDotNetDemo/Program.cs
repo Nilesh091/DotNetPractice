@@ -12,11 +12,12 @@ class Program
     // integrated security = true insted of User Id=sa;Password=2004@Nilu;
     SqlConnection con = new SqlConnection(connString);
     con.Open();
-    CRUD crud = new CRUD();
-    crud.GetAllStudents(con);
+    // CRUD crud = new CRUD();
+    // crud.GetAllStudents(con);
     //crud.GetStudentByName(con, "Priya Singh");
     //crud.AddnewStudent(con, 6, "nilesh ranjan", "cse", 90);
-
+    DisconnectedEnv dev = new DisconnectedEnv();
+    dev.GetAllStudents(con);
     con.Close();
 
     Console.ReadLine();
