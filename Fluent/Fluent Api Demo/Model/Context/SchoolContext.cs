@@ -13,6 +13,17 @@ namespace Fluent_Api_Demo.Model.Context
             optionsBuilder.UseSqlServer("Server=localhost,1433;Database=SchoolDatabase;User Id=sa;Password=2004@Nilu;TrustServerCertificate=True;");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(SchoolContext).Assembly);
+            // modelBuilder.Entity<Student>().HasKey(s => s.Id); //Configuring Primary Key
+
+            // modelBuilder.Entity<Student>().Property(s => s.Name).IsRequired();
+            // modelBuilder.Entity<Student>().Property(s => s.Name).HasMaxLength(35);
+
+        }
+        // protected override void On
+
 
     }
 }

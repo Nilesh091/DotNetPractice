@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fluent Api Demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a9f11b4c11e0a0578802ba92fad100bbab6bef9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ba8c4064985f26f966972c0d4c4192c7f26281b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fluent Api Demo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fluent Api Demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

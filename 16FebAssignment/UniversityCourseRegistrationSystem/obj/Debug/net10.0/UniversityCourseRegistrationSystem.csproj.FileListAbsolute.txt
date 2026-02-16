@@ -1,0 +1,15 @@
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/bin/Debug/net10.0/UniversityCourseRegistrationSystem
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/bin/Debug/net10.0/UniversityCourseRegistrationSystem.deps.json
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/bin/Debug/net10.0/UniversityCourseRegistrationSystem.runtimeconfig.json
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/bin/Debug/net10.0/UniversityCourseRegistrationSystem.dll
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/bin/Debug/net10.0/UniversityCourseRegistrationSystem.pdb
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.AssemblyInfoInputs.cache
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.AssemblyInfo.cs
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.csproj.CoreCompileInputs.cache
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.sourcelink.json
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.dll
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/refint/UniversityCourseRegistrationSystem.dll
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.pdb
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/UniversityCourseRegistrationSystem.genruntimeconfig.cache
+/Users/nrs/Dot Net Dev/16FebAssignment/UniversityCourseRegistrationSystem/obj/Debug/net10.0/ref/UniversityCourseRegistrationSystem.dll
