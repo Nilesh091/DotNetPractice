@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <h3>Student Registration Form</h3>
+
+    <form action="submit.php" method="POST">
+      <table border="1" cellpadding="8" cellspacing="0">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td>
+            <input type="text" id="name" name="name" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input type="email" id="email" name="email" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td>
+            <input type="password" id="password" name="password" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label>Gender:</label></td>
+          <td>
+            <input
+              type="radio"
+              id="male"
+              name="gender"
+              value="Male"
+              required
+            />Male
+
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="Female"
+            />Female
+
+            <input type="radio" id="other" name="gender" value="Other" />Other
+          </td>
+        </tr>
+        <tr>
+          <td><label for="Country">Country</label></td>
+          <td>
+            <select name="country" id="country">
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="India">India</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Register" />
+            <input type="reset" value="Clear" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
